@@ -1,0 +1,26 @@
+name: heuristic_nav
+description: Testbed eksperimen komparasi heuristik Manhattan vs Euclidean pada A* (Flutter + Flame).
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.38.2
+  collection: ^1.19.0
+  path_provider: ^2.1.6
+  share_plus: ^13.3.1
+  device_info_plus: ^13.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/scenarios/

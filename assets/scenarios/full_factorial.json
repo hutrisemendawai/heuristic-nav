@@ -1,0 +1,16 @@
+{
+  "name": "full_factorial_v1",
+  "gridSizes": [20, 50, 100],
+  "obstacleDensitiesPct": [10, 30, 50],
+  "movementModes": ["fourDirections", "eightDirections"],
+  "heuristics": ["manhattan", "euclidean"],
+  "seedsPerConfig": 30,
+  "baseSeed": 20260101,
+  "warmupRuns": 20,
+  "innerRepeatsByGridSize": {"20": 20, "50": 5, "100": 1},
+  "allowCornerCutting": false,
+  "includeOctile": false,
+  "runOnMainIsolate": false,
+  "start": "topLeft",
+  "goal": "bottomRight"
+}
