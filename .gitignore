@@ -1,0 +1,10 @@
+.dart_tool/
+build/
+.packages
+pubspec.lock
+out/
+analysis/output/
+analysis/figures/
+__pycache__/
+*.iml
+.idea/

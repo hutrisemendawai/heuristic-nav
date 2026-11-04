@@ -1,0 +1,16 @@
+{
+  "name": "smoke_test",
+  "gridSizes": [20],
+  "obstacleDensitiesPct": [10, 30],
+  "movementModes": ["fourDirections", "eightDirections"],
+  "heuristics": ["manhattan", "euclidean"],
+  "seedsPerConfig": 3,
+  "baseSeed": 20260101,
+  "warmupRuns": 20,
+  "innerRepeatsByGridSize": {"20": 20},
+  "allowCornerCutting": false,
+  "includeOctile": false,
+  "runOnMainIsolate": false,
+  "start": "topLeft",
+  "goal": "bottomRight"
+}
